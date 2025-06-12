@@ -55,3 +55,10 @@
 [16:12:13] [Server thread/WARN]: UUID of added entity already exists: ctn['Thrown Ender Pearl'/9294, l='ServerLevel[world]', x=-486.71, y=62.04, z=-221.57]
 [16:12:13] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
 [16:12:55] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=0, y=0, z=0} iw{x=-510, y=33, z=-186}
+[16:25:15] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-510, y=28, z=-161} iw{x=-512, y=27, z=-182}
+[16:26:17] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-529, y=27, z=-184} iw{x=-530, y=27, z=-178}
+[16:26:51] [Server thread/INFO]: elite9007[/100.88.155.70:56965] logged in with entity id 12865 at (246.89709142672382, 1.0, 0.6865104366016186)
+[16:26:51] [Server thread/INFO]: elite9007 joined the game
+[16:26:51] [Server thread/WARN]: UUID of added entity already exists: ctn['Thrown Ender Pearl'/12866, l='ServerLevel[world]', x=-484.54, y=61.96, z=-221.68]
+[16:26:51] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[16:27:17] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-518, y=27, z=-183} iw{x=-527, y=27, z=-177}

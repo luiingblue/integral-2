@@ -516,3 +516,4 @@
 [21:00:39] [Server thread/INFO]: elite9007 lost connection: Timed out
 [21:00:39] [Server thread/INFO]: elite9007 left the game
 [21:03:57] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-504, y=28, z=-177} iw{x=-504, y=30, z=-174}
+[21:05:29] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-504, y=28, z=-177} iw{x=-509, y=26, z=-172}

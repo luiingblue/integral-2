@@ -444,3 +444,16 @@
 [20:01:18] [Server thread/INFO]: elite9007 joined the game
 [20:03:14] [Server thread/INFO]: [Not Secure] <elite9007> dame diamante
 [20:03:25] [Server thread/INFO]: [Not Secure] <elite9007> yuanio
+[20:10:12] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=27, z=-179} iw{x=-505, y=34, z=-181}
+[20:11:48] [Server thread/INFO]: [Not Secure] <elite9007> cuantas esmeraldas tienes?
+[20:12:06] [Server thread/WARN]: elite9007 moved wrongly!
+[20:13:26] [Server thread/INFO]: geronimo lost connection: Timed out
+[20:13:26] [Server thread/INFO]: geronimo left the game
+[20:13:44] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=27, z=-178} iw{x=-504, y=32, z=-182}
+[20:19:55] [Server thread/WARN]: elite9007 moved wrongly!
+[20:21:18] [Server thread/INFO]: elite9007 has completed the challenge [It Spreads]
+[20:21:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-499, y=63, z=-170} iw{x=-503, y=63, z=-175}
+[20:21:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-499, y=63, z=-170} iw{x=-503, y=64, z=-176}
+[20:21:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-499, y=63, z=-170} iw{x=-503, y=64, z=-176}
+[20:21:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-499, y=63, z=-170} iw{x=-503, y=64, z=-176}
+[20:22:00] [Server thread/INFO]: Named entity cqd['Gamín'/9428, l='ServerLevel[world]', x=-499.70, y=61.00, z=-159.44] died: Gamín was slain by elite9007 using [joder tio]

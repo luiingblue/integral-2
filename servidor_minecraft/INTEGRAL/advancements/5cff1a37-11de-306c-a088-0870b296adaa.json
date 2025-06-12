@@ -1166,6 +1166,7 @@
       "minecraft:spider": "2025-04-12 06:01:04 +0000",
       "minecraft:piglin_brute": "2025-06-01 02:38:53 +0000",
       "minecraft:creeper": "2025-04-12 05:59:13 +0000",
+      "minecraft:wither": "2025-06-12 19:48:29 +0000",
       "minecraft:slime": "2025-04-16 17:50:53 +0000",
       "minecraft:evoker": "2025-04-21 16:22:32 +0000",
       "minecraft:phantom": "2025-04-27 21:28:53 +0000",
@@ -4616,6 +4617,18 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_planks": "2025-06-12 18:48:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-06-12 19:47:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2025-06-12 19:48:29 +0000"
     },
     "done": true
   },

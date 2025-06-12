@@ -44,3 +44,14 @@
 [15:39:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
 [15:57:31] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-528, y=23, z=-181} iw{x=-512, y=29, z=-182}
 [15:58:54] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-529, y=28, z=-177} iw{x=-531, y=28, z=-177}
+[16:08:29] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-511, y=27, z=-184} iw{x=-528, y=28, z=-185}
+[16:09:14] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-527, y=32, z=-185} iw{x=-527, y=33, z=-185}
+[16:11:55] [Server thread/INFO]: Luiing_Blue lost connection: Disconnected
+[16:11:55] [Server thread/INFO]: Luiing_Blue left the game
+[16:12:13] [Server thread/INFO]: Luiing_Blue[/100.87.58.84:50880] logged in with entity id 9291 at (-461.9674247782572, 63.0, -188.28942042908594)
+[16:12:13] [Server thread/INFO]: Luiing_Blue joined the game
+[16:12:13] [Server thread/WARN]: UUID of added entity already exists: ctn['Thrown Ender Pearl'/9293, l='ServerLevel[world]', x=-486.71, y=61.96, z=-221.57]
+[16:12:13] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[16:12:13] [Server thread/WARN]: UUID of added entity already exists: ctn['Thrown Ender Pearl'/9294, l='ServerLevel[world]', x=-486.71, y=62.04, z=-221.57]
+[16:12:13] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[16:12:55] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=0, y=0, z=0} iw{x=-510, y=33, z=-186}

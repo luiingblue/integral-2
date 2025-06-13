@@ -54,3 +54,9 @@
 [04:44:30] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
 [04:44:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
 [04:55:51] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=22, z=-172} iw{x=-505, y=26, z=-172}
+[04:58:28] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-542, y=22, z=-172} iw{x=-540, y=25, z=-172}
+[04:58:58] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=21, z=-165} iw{x=-508, y=22, z=-165}
+[04:58:59] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=22, z=-165} iw{x=-508, y=23, z=-165}
+[04:58:59] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=22, z=-165} iw{x=-508, y=23, z=-165}
+[05:07:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-503, y=28, z=-177} iw{x=-504, y=30, z=-179}
+[05:08:50] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-504, y=30, z=-179} iw{x=-506, y=30, z=-179}

@@ -49,3 +49,25 @@
 [02:55:10] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-561, y=77, z=-157} iw{x=-561, y=76, z=-155}
 [02:55:13] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-561, y=77, z=-157} iw{x=-559, y=76, z=-159}
 [02:55:13] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-561, y=77, z=-157} iw{x=-559, y=76, z=-159}
+[03:11:01] [Server thread/WARN]: elite9007 moved wrongly!
+[03:16:54] [Server thread/WARN]: elite9007 moved wrongly!
+[03:25:53] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-520, y=72, z=-158} iw{x=-520, y=70, z=-158}
+[03:28:17] [Server thread/WARN]: elite9007 moved too quickly! -17.415173622236125,1.3935691805388757,-1.3016756086881855
+[03:28:18] [Server thread/WARN]: elite9007 moved too quickly! -17.639079439485727,-0.5298416460833124,-3.2763885618145707
+[03:29:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-668, y=67, z=-178} iw{x=-666, y=66, z=-180}
+[03:29:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-668, y=67, z=-178} iw{x=-666, y=66, z=-180}
+[03:29:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-668, y=67, z=-178} iw{x=-666, y=66, z=-180}
+[03:29:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-668, y=67, z=-178} iw{x=-666, y=66, z=-180}
+[03:29:37] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-668, y=67, z=-178} iw{x=-666, y=66, z=-180}
+[03:29:49] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-671, y=69, z=-181} iw{x=-671, y=68, z=-182}
+[03:29:51] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-671, y=69, z=-181} iw{x=-672, y=69, z=-182}
+[03:29:52] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-674, y=69, z=-182} iw{x=-675, y=67, z=-181}
+[03:29:52] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-674, y=69, z=-182} iw{x=-675, y=67, z=-181}
+[03:30:29] [Server thread/WARN]: elite9007 moved too quickly! 0.022144102544757516,5.7811586362487475,-17.12911272054984
+[03:30:55] [Server thread/WARN]: elite9007 moved too quickly! -12.261318289697215,-7.345549656900246,-11.037089544569824
+[03:37:52] [Server thread/INFO]: elite9007 lost connection: Disconnected
+[03:37:52] [Server thread/INFO]: elite9007 left the game
+[03:38:00] [Server thread/INFO]: elite9007[/100.88.155.70:50506] logged in with entity id 15620 at (-781.6999999880791, 192.0, -491.44912765972305)
+[03:38:00] [Server thread/INFO]: elite9007 joined the game
+[03:39:45] [Server thread/INFO]: elite9007 lost connection: Timed out
+[03:39:45] [Server thread/INFO]: elite9007 left the game

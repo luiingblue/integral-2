@@ -1,66 +1,52 @@
-[04:37:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:37:46] [ServerMain/INFO]: Loaded 1373 recipes
-[04:37:46] [ServerMain/INFO]: Loaded 1484 advancements
-[04:37:46] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[04:37:46] [Server thread/INFO]: Loading properties
-[04:37:46] [Server thread/INFO]: Default game type: SURVIVAL
-[04:37:46] [Server thread/INFO]: Generating keypair
-[04:37:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:37:47] [Server thread/INFO]: Using epoll channel type
-[04:37:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:37:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:37:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:37:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:37:47] [Server thread/INFO]: Preparing level "INTEGRAL"
-[04:37:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[04:38:04] [Server thread/INFO]: Time elapsed: 15701 ms
-[04:38:04] [Server thread/INFO]: Done (16.646s)! For help, type "help"
-[04:39:04] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[04:44:30] [Server thread/INFO]: Luiing_Blue[/100.109.71.109:56471] logged in with entity id 10 at (-509.98083962389035, 28.0, -172.29889936643943)
-[04:44:30] [Server thread/INFO]: Luiing_Blue joined the game
-[04:44:30] [Server thread/WARN]: UUID of added entity already exists: ctn['Thrown Ender Pearl'/13, l='ServerLevel[world]', x=-486.71, y=62.04, z=-221.57]
-[04:44:30] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
-[04:44:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[04:55:51] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=22, z=-172} iw{x=-505, y=26, z=-172}
-[04:58:28] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-542, y=22, z=-172} iw{x=-540, y=25, z=-172}
-[04:58:58] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=21, z=-165} iw{x=-508, y=22, z=-165}
-[04:58:59] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=22, z=-165} iw{x=-508, y=23, z=-165}
-[04:58:59] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-508, y=22, z=-165} iw{x=-508, y=23, z=-165}
-[05:07:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-503, y=28, z=-177} iw{x=-504, y=30, z=-179}
-[05:08:50] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-504, y=30, z=-179} iw{x=-506, y=30, z=-179}
-[05:19:21] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-530, y=20, z=-127} iw{x=-530, y=21, z=-127}
-[05:20:11] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-543, y=20, z=-170} iw{x=-546, y=20, z=-171}
-[05:32:23] [Server thread/WARN]: Luiing_Blue moved too quickly! 18.4225612983239,1.6905277329499881,0.058913362674047676
-[05:32:24] [Server thread/WARN]: Luiing_Blue moved too quickly! 18.154945922796514,1.7456849311725051,-0.23673279411499948
+[18:40:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:40:13] [ServerMain/INFO]: Loaded 1373 recipes
+[18:40:13] [ServerMain/INFO]: Loaded 1484 advancements
+[18:40:13] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[18:40:13] [Server thread/INFO]: Loading properties
+[18:40:13] [Server thread/INFO]: Default game type: SURVIVAL
+[18:40:13] [Server thread/INFO]: Generating keypair
+[18:40:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:40:14] [Server thread/INFO]: Using epoll channel type
+[18:40:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:40:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:40:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:40:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:40:14] [Server thread/INFO]: Preparing level "INTEGRAL"
+[18:40:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[18:40:27] [Server thread/INFO]: Time elapsed: 11600 ms
+[18:40:27] [Server thread/INFO]: Done (12.523s)! For help, type "help"
+[18:40:30] [Server thread/INFO]: geronimo[/100.82.238.102:49204] logged in with entity id 9 at (-551.255195463436, 62.9375, -242.69999998807907)
+[18:40:30] [Server thread/INFO]: geronimo joined the game
+[18:40:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[18:40:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4891ms or 97 ticks behind
+[18:43:23] [Server thread/INFO]: Luiing_Blue[/100.87.58.84:50962] logged in with entity id 906 at (-510.0468894218003, 28.0, -169.34125759255926)
+[18:43:23] [Server thread/INFO]: Luiing_Blue joined the game
+[18:43:23] [Server thread/WARN]: UUID of added entity already exists: ctn['Thrown Ender Pearl'/909, l='ServerLevel[world]', x=-486.71, y=62.04, z=-221.57]
+[18:43:23] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[18:43:52] [Server thread/INFO]: [Not Secure] <geronimo> c
+[18:44:15] [Server thread/INFO]: [Not Secure] <geronimo> ttt
+[18:45:45] [Server thread/INFO]: [Not Secure] <geronimo> gieomw4 333errrrr

@@ -150,3 +150,7 @@
 [19:25:19] [Server thread/WARN]: Luiing_Blue moved wrongly!
 [19:25:29] [Server thread/WARN]: Luiing_Blue moved wrongly!
 [19:30:59] [Server thread/INFO]: [Not Secure] <Luiing_Blue> zzzzzzzzzzzz
+[19:40:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-516, y=23, z=-160} iw{x=-521, y=19, z=-152}
+[19:40:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-516, y=23, z=-160} iw{x=-521, y=19, z=-152}
+[19:40:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-516, y=23, z=-160} iw{x=-521, y=19, z=-152}
+[19:41:18] [Server thread/INFO]: [Not Secure] <Luiing_Blue> q a

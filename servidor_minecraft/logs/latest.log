@@ -71,3 +71,8 @@
 [03:38:00] [Server thread/INFO]: elite9007 joined the game
 [03:39:45] [Server thread/INFO]: elite9007 lost connection: Timed out
 [03:39:45] [Server thread/INFO]: elite9007 left the game
+[03:40:45] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[03:42:50] [Server thread/INFO]: elite9007[/100.88.155.70:65376] logged in with entity id 16229 at (-781.6999999880791, 192.0, -491.44912765972305)
+[03:42:50] [Server thread/INFO]: elite9007 joined the game
+[03:56:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-559, y=69, z=-164} iw{x=-560, y=67, z=-164}
+[03:56:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-559, y=69, z=-164} iw{x=-560, y=67, z=-164}

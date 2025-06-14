@@ -729,6 +729,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-06-14 00:23:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bordure_indented_banner_pattern": {
     "criteria": {
       "has_vines": "2025-06-13 22:26:42 +0000"
@@ -1227,6 +1233,12 @@
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2025-06-13 20:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-06-14 00:23:56 +0000"
     },
     "done": true
   },

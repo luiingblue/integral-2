@@ -723,6 +723,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-06-14 00:11:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bordure_indented_banner_pattern": {
     "criteria": {
       "has_vines": "2025-06-13 22:26:42 +0000"
@@ -1140,6 +1146,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-06-14 00:11:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2025-06-13 22:16:12 +0000"
@@ -1281,6 +1293,12 @@
   "minecraft:recipes/decorations/magenta_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-06-13 20:59:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-06-14 00:11:35 +0000"
     },
     "done": true
   },

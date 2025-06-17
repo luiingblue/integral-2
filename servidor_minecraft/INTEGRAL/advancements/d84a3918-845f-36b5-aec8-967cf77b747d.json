@@ -45,6 +45,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "bread": "2025-06-17 02:50:31 +0000",
       "melon_slice": "2025-06-13 18:59:38 +0000",
       "pumpkin_pie": "2025-06-13 18:59:47 +0000",
       "golden_carrot": "2025-06-13 23:58:15 +0000"

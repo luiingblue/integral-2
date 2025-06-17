@@ -4837,15 +4837,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
-    "criteria": {
-      "has_blue_wool": "2025-06-14 00:21:43 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/terracotta": {
     "criteria": {
       "has_clay_block": "2025-06-14 00:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2025-06-14 00:21:43 +0000"
     },
     "done": true
   },
@@ -4855,15 +4855,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2025-06-14 00:26:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_banner": {
     "criteria": {
       "has_blue_wool": "2025-06-14 00:21:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-06-14 00:26:10 +0000"
     },
     "done": true
   },

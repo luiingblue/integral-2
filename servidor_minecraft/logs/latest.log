@@ -33,3 +33,4 @@
 [22:39:12] [Server thread/WARN]: UUID of added entity already exists: ctn['Thrown Ender Pearl'/7, l='ServerLevel[world]', x=-486.65, y=62.04, z=-221.59]
 [22:39:12] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
 [22:39:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[23:32:51] [Server thread/WARN]: Luiing_Blue moved wrongly!

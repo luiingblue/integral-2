@@ -5541,5 +5541,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-06-17 04:33:53 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }

@@ -67,3 +67,9 @@
 [19:16:50] [Server thread/INFO]: geronimo was slain by Iron Golem
 [19:17:00] [Server thread/INFO]: geronimo was slain by Iron Golem
 [19:22:49] [Server thread/INFO]: geronimo fell out of the world
+[19:35:36] [Server thread/INFO]: geronimo lost connection: Timed out
+[19:35:36] [Server thread/INFO]: geronimo left the game
+[19:35:37] [Server thread/WARN]: handleDisconnection() called twice
+[19:41:30] [Server thread/INFO]: geronimo[/100.82.238.102:36134] logged in with entity id 30476 at (-549.8553885623793, 63.0, -238.21124019163491)
+[19:41:30] [Server thread/INFO]: geronimo joined the game
+[19:43:49] [Server thread/INFO]: Luiing_Blue has made the advancement [Wax Off]

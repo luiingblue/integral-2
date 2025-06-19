@@ -196,3 +196,4 @@
 [23:09:28] [Server thread/INFO]: geronimo was slain by Spider
 [23:09:54] [Server thread/INFO]: geronimo lost connection: Disconnected
 [23:09:54] [Server thread/INFO]: geronimo left the game
+[23:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-510, y=26, z=-180} iw{x=-510, y=25, z=-180}

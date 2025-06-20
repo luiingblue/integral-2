@@ -4961,15 +4961,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-06-19 23:48:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye_from_smelting": {
     "criteria": {
       "has_sea_pickle": "2025-06-19 23:49:08 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+  "minecraft:recipes/misc/green_dye": {
     "criteria": {
-      "has_smithing_trim_template": "2025-06-19 23:48:25 +0000"
+      "has_cactus": "2025-06-19 23:52:58 +0000"
     },
     "done": true
   },
@@ -5006,12 +5012,6 @@
   "minecraft:recipes/tools/yellow_bundle": {
     "criteria": {
       "has_yellow_dye": "2025-06-20 00:08:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/green_dye": {
-    "criteria": {
-      "has_cactus": "2025-06-19 23:52:58 +0000"
     },
     "done": true
   },

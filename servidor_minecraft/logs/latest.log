@@ -54,3 +54,5 @@
 [04:43:14] [Server thread/INFO]: Luiing_Blue joined the game
 [04:57:34] [Server thread/WARN]: Luiing_Blue moved too quickly! -0.4910960382783287,-11.19886200217774,0.04222229192870941
 [05:08:22] [Server thread/WARN]: Luiing_Blue moved wrongly!
+[05:42:15] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-411, y=50, z=-174} iw{x=-409, y=50, z=-168}
+[05:42:21] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-411, y=50, z=-174} iw{x=-407, y=50, z=-178}

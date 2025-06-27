@@ -46,3 +46,5 @@
 [22:55:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
 [22:56:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4344ms or 86 ticks behind
 [23:01:23] [Server thread/WARN]: Luiing_Blue moved wrongly!
+[23:03:59] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-409, y=56, z=-171} iw{x=-412, y=54, z=-167}
+[23:08:54] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-412, y=53, z=-168} iw{x=-412, y=57, z=-173}

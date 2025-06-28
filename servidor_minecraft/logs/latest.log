@@ -40,3 +40,10 @@
 [03:01:52] [Server thread/INFO]: elite9007[/100.88.155.70:58512] logged in with entity id 14 at (-403.4330947685062, 63.0, -274.1030557787199)
 [03:01:52] [Server thread/INFO]: elite9007 joined the game
 [03:01:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[03:25:57] [Server thread/INFO]: Nikolinda[/100.110.201.24:56244] logged in with entity id 8065 at (-538.2519733278646, 70.0, -194.078020779178)
+[03:25:57] [Server thread/INFO]: Nikolinda joined the game
+[03:26:21] [Server thread/INFO]: Kicked Nikolinda: Kicked by an operator
+[03:26:21] [Server thread/INFO]: Nikolinda lost connection: Kicked by an operator
+[03:26:21] [Server thread/INFO]: Nikolinda left the game
+[03:26:44] [Server thread/INFO]: Nikolinda[/100.110.201.24:56254] logged in with entity id 8382 at (-534.4006375878179, 66.5, -186.3664770391467)
+[03:26:44] [Server thread/INFO]: Nikolinda joined the game

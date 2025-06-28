@@ -1,51 +1,11 @@
-[22:53:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:53:28] [ServerMain/INFO]: Loaded 1373 recipes
-[22:53:28] [ServerMain/INFO]: Loaded 1484 advancements
-[22:53:29] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[22:53:29] [Server thread/INFO]: Loading properties
-[22:53:29] [Server thread/INFO]: Default game type: SURVIVAL
-[22:53:29] [Server thread/INFO]: Generating keypair
-[22:53:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:53:29] [Server thread/INFO]: Using epoll channel type
-[22:53:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:53:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:53:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:53:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:53:29] [Server thread/INFO]: Preparing level "INTEGRAL"
-[22:53:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:53:43] [Server thread/INFO]: Time elapsed: 12532 ms
-[22:53:43] [Server thread/INFO]: Done (13.309s)! For help, type "help"
-[22:54:43] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:55:43] [Server thread/INFO]: Luiing_Blue[/100.87.58.84:49997] logged in with entity id 8 at (-412.7106511500052, 53.0, -167.30000001192093)
-[22:55:43] [Server thread/INFO]: Luiing_Blue joined the game
-[22:55:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[22:56:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4344ms or 86 ticks behind
-[23:01:23] [Server thread/WARN]: Luiing_Blue moved wrongly!
-[23:03:59] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-409, y=56, z=-171} iw{x=-412, y=54, z=-167}
-[23:08:54] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-412, y=53, z=-168} iw{x=-412, y=57, z=-173}
-[23:16:48] [Server thread/WARN]: Luiing_Blue moved wrongly!
+[00:02:14] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-419, y=40, z=-174} iw{x=-418, y=39, z=-173}
+[00:04:39] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-423, y=39, z=-176} iw{x=-420, y=41, z=-176}
+[00:04:57] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-421, y=40, z=-177} iw{x=-423, y=41, z=-176}
+[00:11:00] [Server thread/INFO]: [Not Secure] <Luiing_Blue> zzzzzzzzzzzz
+[00:11:01] [Server thread/INFO]: [Not Secure] <Luiing_Blue> z
+[00:11:01] [Server thread/INFO]: [Not Secure] <Luiing_Blue> z
+[00:11:01] [Server thread/INFO]: [Not Secure] <Luiing_Blue> z
+[00:11:01] [Server thread/INFO]: [Not Secure] <Luiing_Blue> z
+[00:11:01] [Server thread/INFO]: [Not Secure] <Luiing_Blue> z
+[00:11:01] [Server thread/INFO]: [Not Secure] <Luiing_Blue> z
+[00:13:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-423, y=39, z=-176} iw{x=-423, y=50, z=-177}

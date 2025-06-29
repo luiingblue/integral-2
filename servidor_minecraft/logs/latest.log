@@ -1,118 +1,52 @@
-[02:58:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:58:08] [ServerMain/INFO]: Loaded 1373 recipes
-[02:58:08] [ServerMain/INFO]: Loaded 1484 advancements
-[02:58:09] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[02:58:09] [Server thread/INFO]: Loading properties
-[02:58:09] [Server thread/INFO]: Default game type: SURVIVAL
-[02:58:09] [Server thread/INFO]: Generating keypair
-[02:58:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:58:09] [Server thread/INFO]: Using epoll channel type
-[02:58:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:58:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:58:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:58:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:58:09] [Server thread/INFO]: Preparing level "INTEGRAL"
-[02:58:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:58:21] [Server thread/INFO]: Time elapsed: 10759 ms
-[02:58:21] [Server thread/INFO]: Done (11.548s)! For help, type "help"
-[02:59:21] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[03:01:52] [Server thread/INFO]: elite9007[/100.88.155.70:58512] logged in with entity id 14 at (-403.4330947685062, 63.0, -274.1030557787199)
-[03:01:52] [Server thread/INFO]: elite9007 joined the game
-[03:01:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[03:25:57] [Server thread/INFO]: Nikolinda[/100.110.201.24:56244] logged in with entity id 8065 at (-538.2519733278646, 70.0, -194.078020779178)
-[03:25:57] [Server thread/INFO]: Nikolinda joined the game
-[03:26:21] [Server thread/INFO]: Kicked Nikolinda: Kicked by an operator
-[03:26:21] [Server thread/INFO]: Nikolinda lost connection: Kicked by an operator
-[03:26:21] [Server thread/INFO]: Nikolinda left the game
-[03:26:44] [Server thread/INFO]: Nikolinda[/100.110.201.24:56254] logged in with entity id 8382 at (-534.4006375878179, 66.5, -186.3664770391467)
-[03:26:44] [Server thread/INFO]: Nikolinda joined the game
-[03:35:18] [Server thread/WARN]: Nikolinda moved too quickly! -0.0470950477021006,-1.2600995890789193,-17.769094409900845
-[03:35:23] [Server thread/WARN]: Nikolinda moved too quickly! 0.14873847525996098,-1.7259289809458096,-18.035392801219814
-[03:35:35] [Server thread/WARN]: Nikolinda moved too quickly! -0.31824154344235467,-0.728435146213144,-18.472837132562518
-[03:35:44] [Server thread/WARN]: Nikolinda moved too quickly! -0.3297349332601698,-0.5272957151951658,-18.28180270483972
-[03:35:49] [Server thread/WARN]: Nikolinda moved too quickly! -0.4543182184813759,-1.347164609194067,-17.344138975104443
-[03:36:45] [Server thread/WARN]: Nikolinda moved too quickly! 1.021405423686133,-1.4725249990092095,18.54161542396014
-[03:36:52] [Server thread/WARN]: Nikolinda moved too quickly! 1.0698910461769628,-1.6813966594135792,17.776591245803274
-[03:37:09] [Server thread/WARN]: Nikolinda moved too quickly! 1.67278651883953,-0.01502263326383968,18.218862811281724
-[03:37:17] [Server thread/WARN]: Nikolinda moved too quickly! 1.4673116461619884,1.7962448610398525,18.050873054222166
-[03:37:29] [Server thread/WARN]: Nikolinda moved too quickly! 1.758033528623514,-0.6814570459577425,17.788437823531694
-[03:37:30] [Server thread/WARN]: Nikolinda moved too quickly! -0.4262559894773972,1.5926962656355244,18.130071954696405
-[03:37:36] [Server thread/WARN]: Nikolinda moved too quickly! -0.3061437618088121,-1.541727040321888,18.60619256779455
-[03:42:14] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-416, y=70, z=-360} iw{x=-416, y=63, z=-360}
-[03:44:37] [Server thread/WARN]: elite9007 moved wrongly!
-[03:44:47] [Server thread/WARN]: elite9007 moved wrongly!
-[03:45:00] [Server thread/INFO]: [Not Secure] <elite9007> zzz
-[03:45:00] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:00] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:00] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:00] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:01] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:01] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:01] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:01] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:01] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:01] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:45:03] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:49:27] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-447, y=61, z=-299} iw{x=-449, y=63, z=-303}
-[03:51:05] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-444, y=63, z=-306} iw{x=-442, y=63, z=-308}
-[03:51:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-444, y=63, z=-306} iw{x=-433, y=63, z=-308}
-[03:51:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-444, y=63, z=-306} iw{x=-433, y=63, z=-308}
-[03:51:08] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-444, y=63, z=-306} iw{x=-433, y=63, z=-308}
-[03:51:26] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-437, y=65, z=-310} iw{x=-437, y=63, z=-315}
-[03:51:35] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-437, y=65, z=-310} iw{x=-431, y=63, z=-329}
-[03:51:48] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-437, y=65, z=-310} iw{x=-429, y=63, z=-343}
-[03:52:20] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-449, y=62, z=-311} iw{x=-452, y=63, z=-309}
-[03:53:30] [Server thread/WARN]: elite9007 moved wrongly!
-[03:53:48] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-468, y=62, z=-316} iw{x=-471, y=63, z=-317}
-[03:54:40] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-468, y=62, z=-316} iw{x=-442, y=63, z=-315}
-[03:55:25] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-471, y=61, z=-320} iw{x=-441, y=63, z=-319}
-[03:55:29] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-471, y=61, z=-320} iw{x=-440, y=63, z=-318}
-[03:55:34] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-471, y=61, z=-320} iw{x=-438, y=63, z=-321}
-[03:55:42] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-439, y=63, z=-321} iw{x=-441, y=63, z=-321}
-[03:56:41] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-482, y=62, z=-323} iw{x=-482, y=63, z=-327}
-[03:57:14] [Server thread/INFO]: [Not Secure] <elite9007> zzzz
-[03:57:14] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:57:14] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:57:14] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:57:14] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:57:15] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:57:15] [Server thread/INFO]: [Not Secure] <elite9007> z
-[03:57:22] [Server thread/INFO]: [Not Secure] <elite9007> Z
-[03:57:22] [Server thread/INFO]: [Not Secure] <elite9007> Z
-[03:57:22] [Server thread/INFO]: [Not Secure] <elite9007> Z
-[03:57:22] [Server thread/INFO]: [Not Secure] <elite9007> Z
-[03:57:22] [Server thread/INFO]: [Not Secure] <elite9007> Z
-[03:57:23] [Server thread/INFO]: [Not Secure] <elite9007> Z
-[03:57:23] [Server thread/INFO]: [Not Secure] <elite9007> Z
-[03:57:23] [Server thread/INFO]: [Not Secure] <elite9007> Z
-[04:10:26] [Server thread/WARN]: elite9007 moved wrongly!
-[04:18:42] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-448, y=63, z=-304} iw{x=-448, y=63, z=-306}
-[04:19:55] [Server thread/WARN]: Nikolinda moved wrongly!
-[04:27:21] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-423, y=62, z=-353} iw{x=-422, y=63, z=-352}
-[04:27:23] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-423, y=62, z=-353} iw{x=-425, y=64, z=-348}
-[04:27:24] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-425, y=64, z=-348} iw{x=-425, y=63, z=-348}
-[04:29:38] [Server thread/WARN]: elite9007 moved wrongly!
-[04:30:37] [Server thread/WARN]: elite9007 moved wrongly!
-[04:37:12] [Server thread/WARN]: Nikolinda moved too quickly! -9.447052039629455,-1.881376557430059,-15.307428363677218
-[04:37:50] [Server thread/INFO]: Nikolinda was slain by Zombie
+[05:09:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:09:26] [ServerMain/INFO]: Loaded 1373 recipes
+[05:09:26] [ServerMain/INFO]: Loaded 1484 advancements
+[05:09:26] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[05:09:26] [Server thread/INFO]: Loading properties
+[05:09:26] [Server thread/INFO]: Default game type: SURVIVAL
+[05:09:26] [Server thread/INFO]: Generating keypair
+[05:09:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:09:26] [Server thread/INFO]: Using epoll channel type
+[05:09:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:09:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:09:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:09:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:09:27] [Server thread/INFO]: Preparing level "INTEGRAL"
+[05:09:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:09:42] [Server thread/INFO]: Time elapsed: 14923 ms
+[05:09:42] [Server thread/INFO]: Done (15.709s)! For help, type "help"
+[05:10:42] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[05:10:51] [Server thread/INFO]: Luiing_Blue[/100.109.71.109:64777] logged in with entity id 7 at (-400.6286380024958, 63.0, -269.118234514182)
+[05:10:51] [Server thread/INFO]: Luiing_Blue joined the game
+[05:10:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3214ms or 64 ticks behind
+[05:11:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7313ms or 146 ticks behind

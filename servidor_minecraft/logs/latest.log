@@ -48,3 +48,7 @@
 [22:10:24] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-26, y=16, z=58} iw{x=-27, y=17, z=59}
 [22:11:50] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=114, y=16, z=62} iw{x=114, y=14, z=61}
 [22:26:13] [Server thread/WARN]: Luiing_Blue moved wrongly!
+[22:48:36] [Server thread/WARN]: Luiing_Blue moved too quickly! 9.462129061631174,15.623343395936331,1.7088974321000308
+[22:52:49] [Server thread/WARN]: Luiing_Blue moved too quickly! -17.332227140311318,5.159339384312929,0.3965543316817275
+[22:53:06] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-670, y=62, z=-174} iw{x=-671, y=61, z=-174}
+[22:53:06] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-670, y=62, z=-174} iw{x=-671, y=61, z=-174}

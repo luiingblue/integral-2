@@ -55,3 +55,9 @@
 [22:28:56] [Server thread/WARN]: Luiing_Blue moved too quickly! -0.001700381409932561,-2.6004427397286918,-17.735621084641934
 [22:28:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2543ms or 50 ticks behind
 [22:29:05] [Server thread/WARN]: Luiing_Blue moved too quickly! -3.63497056754386,-15.87593297437462,8.130311198221534
+[22:36:47] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-358, y=80, z=-3740} iw{x=-338, y=88, z=-3732}
+[22:38:37] [Server thread/WARN]: Luiing_Blue moved too quickly! -1.0406181145001483,-7.68326839763354,16.99176003406228
+[22:45:43] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-461, y=63, z=-203} iw{x=-461, y=62, z=-205}
+[22:46:23] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-459, y=62, z=-204} iw{x=-492, y=62, z=-212}
+[22:49:47] [Server thread/WARN]: Mismatch in destroy block pos: iw{x=-479, y=63, z=-247} iw{x=-503, y=63, z=-246}
+[22:57:35] [Server thread/WARN]: Luiing_Blue moved wrongly!

@@ -1,0 +1,328 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 2025-12-10 17:54:05
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at com.google.gson.internal.LinkedTreeMap.put(LinkedTreeMap.java:123)
+	at com.google.gson.JsonObject.add(JsonObject.java:70)
+	at com.mojang.serialization.JsonOps$JsonRecordBuilder.append(JsonOps.java:397)
+	at com.mojang.serialization.JsonOps$JsonRecordBuilder.append(JsonOps.java:385)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.lambda$add$1(RecordBuilder.java:100)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder$$Lambda/0x0000756460c7e2d0.apply(Unknown Source)
+	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:434)
+	at com.mojang.serialization.DataResult.apply2stable(DataResult.java:112)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.add(RecordBuilder.java:100)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.lambda$add$4(RecordBuilder.java:125)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder$$Lambda/0x0000756460c7db58.apply(Unknown Source)
+	at com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.add(RecordBuilder.java:124)
+	at com.mojang.serialization.codecs.BaseMapCodec.encode(BaseMapCodec.java:62)
+	at com.mojang.serialization.codecs.UnboundedMapCodec.encode(UnboundedMapCodec.java:27)
+	at com.mojang.serialization.codecs.UnboundedMapCodec.encode(UnboundedMapCodec.java:16)
+	at com.mojang.serialization.Encoder$1.encode(Encoder.java:25)
+	at com.mojang.serialization.Codec$2.encode(Codec.java:80)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at com.mojang.serialization.codecs.OptionalFieldCodec.encode(OptionalFieldCodec.java:44)
+	at com.mojang.serialization.codecs.OptionalFieldCodec.encode(OptionalFieldCodec.java:17)
+	at com.mojang.serialization.MapEncoder$1.encode(MapEncoder.java:26)
+	at com.mojang.serialization.MapCodec$2.encode(MapCodec.java:82)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$4.encode(RecordCodecBuilder.java:222)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.encode(RecordCodecBuilder.java:112)
+	at com.mojang.serialization.MapCodec$MapCodecCodec.encode(MapCodec.java:163)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at com.mojang.serialization.codecs.BaseMapCodec.encode(BaseMapCodec.java:62)
+	at com.mojang.serialization.codecs.UnboundedMapCodec.encode(UnboundedMapCodec.java:27)
+	at com.mojang.serialization.codecs.UnboundedMapCodec.encode(UnboundedMapCodec.java:16)
+	at com.mojang.serialization.Encoder$1.encode(Encoder.java:25)
+	at com.mojang.serialization.Codec$2.encode(Codec.java:80)
+	at bbo$1.encode(SourceFile:55)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at alz.b(SourceFile:134)
+	at awb.b(SourceFile:345)
+	at awb.c(SourceFile:357)
+	at ate.q(SourceFile:1443)
+	at ate.a(SourceFile:1432)
+	at vv.n(SourceFile:673)
+	at atd.c(SourceFile:189)
+	at net.minecraft.server.MinecraftServer.G(SourceFile:1093)
+	at aqr.G(SourceFile:281)
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1073)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:946)
+	at net.minecraft.server.MinecraftServer.y(SourceFile:706)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:290)
+	at net.minecraft.server.MinecraftServer$$Lambda/0x0000756460c83620.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at com.google.gson.internal.LinkedTreeMap.put(LinkedTreeMap.java:123)
+	at com.google.gson.JsonObject.add(JsonObject.java:70)
+	at com.mojang.serialization.JsonOps$JsonRecordBuilder.append(JsonOps.java:397)
+	at com.mojang.serialization.JsonOps$JsonRecordBuilder.append(JsonOps.java:385)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.lambda$add$1(RecordBuilder.java:100)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder$$Lambda/0x0000756460c7e2d0.apply(Unknown Source)
+	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:434)
+	at com.mojang.serialization.DataResult.apply2stable(DataResult.java:112)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.add(RecordBuilder.java:100)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.lambda$add$4(RecordBuilder.java:125)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder$$Lambda/0x0000756460c7db58.apply(Unknown Source)
+	at com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.add(RecordBuilder.java:124)
+	at com.mojang.serialization.codecs.BaseMapCodec.encode(BaseMapCodec.java:62)
+	at com.mojang.serialization.codecs.UnboundedMapCodec.encode(UnboundedMapCodec.java:27)
+	at com.mojang.serialization.codecs.UnboundedMapCodec.encode(UnboundedMapCodec.java:16)
+	at com.mojang.serialization.Encoder$1.encode(Encoder.java:25)
+	at com.mojang.serialization.Codec$2.encode(Codec.java:80)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at com.mojang.serialization.codecs.OptionalFieldCodec.encode(OptionalFieldCodec.java:44)
+	at com.mojang.serialization.codecs.OptionalFieldCodec.encode(OptionalFieldCodec.java:17)
+	at com.mojang.serialization.MapEncoder$1.encode(MapEncoder.java:26)
+	at com.mojang.serialization.MapCodec$2.encode(MapCodec.java:82)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$4.encode(RecordCodecBuilder.java:222)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.encode(RecordCodecBuilder.java:112)
+	at com.mojang.serialization.MapCodec$MapCodecCodec.encode(MapCodec.java:163)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at com.mojang.serialization.codecs.BaseMapCodec.encode(BaseMapCodec.java:62)
+	at com.mojang.serialization.codecs.UnboundedMapCodec.encode(UnboundedMapCodec.java:27)
+	at com.mojang.serialization.codecs.UnboundedMapCodec.encode(UnboundedMapCodec.java:16)
+	at com.mojang.serialization.Encoder$1.encode(Encoder.java:25)
+	at com.mojang.serialization.Codec$2.encode(Codec.java:80)
+	at bbo$1.encode(SourceFile:55)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at alz.b(SourceFile:134)
+	at awb.b(SourceFile:345)
+	at awb.c(SourceFile:357)
+	at ate.q(SourceFile:1443)
+	at ate.a(SourceFile:1432)
+	at vv.n(SourceFile:673)
+	at atd.c(SourceFile:189)
+	at net.minecraft.server.MinecraftServer.G(SourceFile:1093)
+	at aqr.G(SourceFile:281)
+	at net.minecraft.server.MinecraftServer.c(SourceFile:1073)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:946)
+	at net.minecraft.server.MinecraftServer.y(SourceFile:706)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:290)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@21.0.9/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.9/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@21.0.9/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@6d642366
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@6d642366
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.9/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@21.0.9/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@21.0.9/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=16 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=17 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4eae524a
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4eae524a
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1886)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.9/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"DestroyJavaVM" prio=5 Id=19 RUNNABLE
+
+
+"JNA Cleaner" daemon prio=5 Id=25 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@eab731b
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@eab731b
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1886)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+
+"Timer hack thread" daemon prio=5 Id=26 TIMED_WAITING
+	at java.base@21.0.9/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.9/java.lang.Thread.sleep(Thread.java:509)
+	at ag$9.run(SourceFile:988)
+
+
+"Yggdrasil Key Fetcher" daemon prio=5 Id=27 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3ad3a3ee
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3ad3a3ee
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+
+"Server thread" prio=5 Id=31 RUNNABLE
+	at com.google.gson.internal.LinkedTreeMap.put(LinkedTreeMap.java:123)
+	at com.google.gson.JsonObject.add(JsonObject.java:70)
+	at com.mojang.serialization.JsonOps$JsonRecordBuilder.append(JsonOps.java:397)
+	at com.mojang.serialization.JsonOps$JsonRecordBuilder.append(JsonOps.java:385)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.lambda$add$1(RecordBuilder.java:100)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder$$Lambda/0x0000756460c7e2d0.apply(Unknown Source)
+	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:434)
+	at com.mojang.serialization.DataResult.apply2stable(DataResult.java:112)
+	...
+
+
+"Server console handler" daemon prio=5 Id=33 RUNNABLE (in native)
+	at java.base@21.0.9/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.9/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.9/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base@21.0.9/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base@21.0.9/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base@21.0.9/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	at java.base@21.0.9/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393)
+	at java.base@21.0.9/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217)
+	...
+
+	Number of locked synchronizers = 3
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@1f0679a9
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@386d7574
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@48bb9478
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=34 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@7660c8c1 owned by "Server thread" Id=31
+	at java.base@21.0.9/java.util.Collections$SynchronizedCollection.add(Collections.java:2325)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@7660c8c1
+	at atd$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112)
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:1130)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:558)
+	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:45)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1410)
+	...
+
+
+"Server Watchdog" daemon prio=5 Id=41 RUNNABLE
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at aqu.a(SourceFile:75)
+	at aqu.run(SourceFile:47)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=43 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:220)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:213)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:308)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:365)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=44 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:220)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:213)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:308)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:365)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=45 BLOCKED on java.util.Collections$SynchronizedRandomAccessList@7660c8c1 owned by "Server thread" Id=31
+	at java.base@21.0.9/java.util.Collections$SynchronizedCollection.add(Collections.java:2325)
+	-  blocked on java.util.Collections$SynchronizedRandomAccessList@7660c8c1
+	at atd$1.initChannel(SourceFile:106)
+	at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129)
+	at io.netty.channel.ChannelInitializer.handlerAdded(ChannelInitializer.java:112)
+	at io.netty.channel.AbstractChannelHandlerContext.callHandlerAdded(AbstractChannelHandlerContext.java:1130)
+	at io.netty.channel.DefaultChannelPipeline.callHandlerAdded0(DefaultChannelPipeline.java:558)
+	at io.netty.channel.DefaultChannelPipeline.access$100(DefaultChannelPipeline.java:45)
+	at io.netty.channel.DefaultChannelPipeline$PendingHandlerAddedTask.execute(DefaultChannelPipeline.java:1410)
+	...
+
+
+
+Stacktrace:
+	at aqu.a(SourceFile:90)
+	at aqu.run(SourceFile:47)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: minecraft:overworld: players: 0, entities: 9,9,8,49,49,0,0 [minecraft:rabbit:6,minecraft:enderman:1,minecraft:pig:1,minecraft:cow:1], block_entities: 640 [minecraft:hopper:424,minecraft:furnace:79,minecraft:vault:33,minecraft:mob_spawner:26,minecraft:trial_spawner:19], block_ticks: 16, fluid_ticks: 9, chunk_source: Chunks[S] W: 841 E: 9,9,8,49,49,0,0,
+minecraft:the_end: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+minecraft:the_nether: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.5
+	Minecraft Version ID: 1.21.5
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 21.0.9, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 974348528 bytes (929 MiB) / 2147483648 bytes (2048 MiB) up to 6442450944 bytes (6144 MiB)
+	CPUs: 2
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 2
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 3972.33
+	Virtual memory used (MiB): 5024.77
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 39321.92, total: 45046.83
+	Space in storage for workdir (MiB): available: 15040.50, total: 32077.81
+	JVM Flags: 2 total; -Xms2G -Xmx6G
+	Server Running: true
+	Player Count: 0 / 20; []
+	Active Data Packs: vanilla, file/bukkit
+	Available Data Packs: file/bukkit, minecart_improvements, redstone_experiments, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -6748012319923020031
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)
